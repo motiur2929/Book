@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+}
+.leftdiv {
+    width: 550px;
+    float: left;
+}
+
+.rightdiv {
+    width: 550px;
+    float: right;
+    /* transform-origin: left; */
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.leftdiv h2 {
+    font-size: 70px;
+    font-family: arial black;
+    padding: 212px 0px;
+}
+.bookTitle {
+    background: #368a8c;
+    transform-origin: left;
+}
+img {
+    width: 100%;
+}
+.bookTitle h3 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 78px;
+	transition:all 0.4s;
+}
+.bookTitle p {
+    text-align: center;
+    font-size: 20px;
+    color: #f9f9f9;
+    padding-bottom: 20px;
+	transition:all 0.4s;
+}
+.dookCover img {
+    height: 350px;
+	transition:all 0.4s;
+}
+.rightBook {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    transform: skewY(-4deg);
+    border-left: 25px solid #014550;
+	transform-origin: left;
+}
+section.book {
+    padding: 123px 0px;
+    overflow: hidden;
+}
+.bookPage {
+    width: 400px;
+    height: 527px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    background: #efefef;
+    color: #2e2d2d;
+    z-index: -1;
+}
+.bookPage h3 {
+    font-family: arial;
+    padding: 16px 24px;
+    padding-top: 50px;
+}
+
+.bookPage p {
+    padding: 0px 14px;
+    line-height: 18px;
+}
+.bookWrap {
+	background: #368a8c;
+	transition:all 1s;
+	transform-origin: left;
+}
+.rightBook:hover .bookWrap{
+	transform: rotateY(148deg);
+    transform-origin: left;
+	background: #368a8c;	
+}
+.eBook {
+    height: 700px;
+    padding: 40px 0px;
+}
+.rightBook:hover .dookCover img{
+	visibility:hidden;
+}
+.rightBook:hover .bookTitle h3{
+	visibility:hidden;
+}
+.rightBook:hover .bookTitle p{
+	visibility:hidden;
+}
+.dookCover {
+    transform-origin: left;
+}
+
+
